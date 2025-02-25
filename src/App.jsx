@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { EventProvider } from './context/EventContext';
-import HomePage from './pages/Homepage';
+import HomePage from './pages/HomePage';
 import EventsPage from './pages/EventsPage';
 import EventDetailPage from './pages/EventDetailPage';
 import CreateEventPage from './pages/CreateEventPage';
