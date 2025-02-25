@@ -1,0 +1,62 @@
+/* EventDetail.css */
+
+.event-detail {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.event-detail-image img {
+  width: 100%;
+  max-height: 400px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.event-detail-info {
+  margin-bottom: 1.5rem;
+}
+
+.event-detail-info p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.event-detail-info strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.event-detail-actions {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.event-detail-actions button {
+  padding: 1rem 2rem;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0.5rem;
+}
+
+.event-detail-actions button:hover {
+  background-color: #0056b3;
+}
+
+.event-detail-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

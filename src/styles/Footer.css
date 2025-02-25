@@ -1,0 +1,126 @@
+/* Footer.css */
+
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    padding: 3rem 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff; /* White heading */
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .subscribe-form {
+    display: flex;
+  }
+  
+  .subscribe-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 4px 0 0 4px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .subscribe-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #555;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+  
+  .legal-links a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    transition: color 0.3s ease;
+  }
+  
+  .legal-links a:hover {
+    color: #007bff;
+  }

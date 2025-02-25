@@ -1,0 +1,96 @@
+/* EventsPage.css */
+
+.events-page {
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .events-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .events-page h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .events-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
+  }
+  
+  .search-box input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px; /* Adjust as needed */
+    max-width: 100%;
+  }
+  
+  .filter-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
+  }
+  
+  .category-filter select {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem; /* Add margin for spacing on smaller screens */
+  }
+  
+  .time-filters button {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem; /* Add margin for spacing on smaller screens */
+    transition: background-color 0.3s ease;
+  }
+  
+  .time-filters button.active,
+  .time-filters button:hover {
+    background-color: #e7f5ff;
+  }
+  
+  .events-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .events-filters {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search-box input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }

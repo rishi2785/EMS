@@ -1,0 +1,101 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px; /* Adjust as needed */
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .user-profile {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+  }
+  
+  .user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    margin-bottom: 1rem;
+  }
+  
+  .user-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .user-email {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar-nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #f8f9fa;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: flex; /* Use flexbox for icon alignment */
+    align-items: center;
+  }
+  
+  .sidebar-nav a:hover,
+  .sidebar-nav a.active {
+    background-color: #222; /* Slightly lighter background on hover/active */
+  }
+  
+  .sidebar-nav a i {
+    margin-right: 0.75rem; /* Space between icon and text */
+    width: 20px; /* Consistent icon width */
+    text-align: center; /* Center icons horizontally */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Auto height on smaller screens */
+      flex-direction: row; /* Horizontal layout */
+      overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent wrapping */
+    }
+  
+    .user-profile {
+      display: none; /* Hide user profile on smaller screens */
+    }
+  
+    .sidebar-nav ul {
+      display: flex; /* Horizontal list */
+    }
+  
+    .sidebar-nav li {
+      margin-right: 0.5rem;
+      margin-bottom: 0;
+    }
+  }
