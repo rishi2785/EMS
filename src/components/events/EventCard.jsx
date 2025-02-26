@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { formatDate } from '../../utils/dateUtils';
 import './../common/styles/EventCard.css';
+import image from './../../assets/hero-bg.jpg'
 
 const EventCard = ({ event }) => {
   const { id, title, description, date, location, organizer, attendees, image } = event;
@@ -9,7 +10,7 @@ const EventCard = ({ event }) => {
   return (
     <div className="event-card">
       <div className="event-image">
-        <img src={image || '/placeholder-event.jpg'} alt={title} />
+        <img src={image || './../../assets/hero-bg.jpg'} alt={title} />
       </div>
       <div className="event-content">
         <h3 className="event-title">{title}</h3>
