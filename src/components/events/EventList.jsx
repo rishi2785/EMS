@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { EventContext } from '../../context/EventContext';
 import EventCard from './EventCard';
-import '../../styles/EventList.css';
+import './../common/styles/EventList.css';
 
 const EventList = ({ filter = 'all' }) => {
   const { events, loading } = useContext(EventContext);

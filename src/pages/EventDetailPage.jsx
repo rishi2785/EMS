@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { EventContext } from '../context/EventContext';
 import EventDetail from '../components/events/EventDetail';
-import '../styles/EventDetailPage.css';
+import './../components/common/styles/EventDetailPage.css';
 
 const EventDetailPage = () => {
   const { id } = useParams();

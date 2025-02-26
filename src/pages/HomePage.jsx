@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import EventList from '../components/events/EventList';
 import Button from '../components/common/Button';
-import '../styles/HomePage.css';
+import './../components/common/styles/HomePage.css';
 
 const HomePage = () => {
   return (

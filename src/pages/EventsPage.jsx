@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { EventContext } from '../context/EventContext';
 import EventList from '../components/events/EventList';
 import Button from '../components/common/Button';
-import '../styles/EventsPage.css';
+import './../components/common/styles/EventsPage.css'
 
 const EventsPage = () => {
   const { loading } = useContext(EventContext);

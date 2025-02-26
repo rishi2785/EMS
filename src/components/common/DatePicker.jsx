@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/DatePicker.css';
+import './styles/DatePicker.css';
 
 const DatePicker = ({ 
   id, 

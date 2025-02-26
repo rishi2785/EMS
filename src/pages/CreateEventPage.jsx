@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Navigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import EventForm from '../components/events/EventForm';
-import '../styles/CreateEventPage.css';
+import './../components/common/styles/CreateEventPage.css';
 
 const CreateEventPage = () => {
   const { currentUser, loading } = useContext(AuthContext);

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { EventContext } from '../../context/EventContext';
 import DatePicker from '../common/DatePicker';
 import Button from '../common/Button';
-import '../../styles/EventForm.css';
+import './../common/styles/EventForm.css';
 
 const EventForm = ({ event = null }) => {
   const isEditing = !!event;

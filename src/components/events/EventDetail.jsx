@@ -5,7 +5,7 @@ import { EventContext } from '../../context/EventContext';
 import Button from '../common/Button';
 import Modal from '../common/Modal';
 import { formatDate } from '../../utils/dateUtils';
-import '../../styles/EventDetail.css';
+import './../common/styles/EventDetail.css';
 
 const EventDetail = ({ event }) => {
   const [showModal, setShowModal] = useState(false);

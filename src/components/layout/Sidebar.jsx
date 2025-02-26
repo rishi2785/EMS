@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
-import '../../styles/Sidebar.css';
+import './../common/styles/Sidebar.css';
 
 const Sidebar = () => {
   const { currentUser } = useContext(AuthContext);

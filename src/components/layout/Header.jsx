@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import Button from '../common/Button';
-import '../../styles/Header.css';
+import './../common/styles/Header.css';
 
 const Header = () => {
   const { currentUser, logout } = useContext(AuthContext);

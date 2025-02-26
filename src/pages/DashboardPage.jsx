@@ -5,7 +5,7 @@ import { EventContext } from '../context/EventContext';
 import Sidebar from '../components/layout/Sidebar';
 import EventCard from '../components/events/EventCard';
 import Button from '../components/common/Button';
-import '../styles/Dashboard.css';
+import './../components/common/styles/Dashboard.css';
 
 const DashboardPage = () => {
   const { currentUser, loading: authLoading } = useContext(AuthContext);
