@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import EventList from '../components/events/EventList';
 import Button from '../components/common/Button';
 import './../components/common/styles/HomePage.css';
+import image from './../assets/hero-bg.jpg'
 
 const HomePage = () => {
   return (
@@ -25,7 +26,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/hero-image.jpg" alt="Event" />
+            <img src={image} alt="Event" />
           </div>
         </div>
       </section>
